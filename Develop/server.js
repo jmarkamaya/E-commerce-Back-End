@@ -2,7 +2,8 @@ const express = require('express');
 const routes = require('./routes');
 const sequelize = require('./config/connection.js');
 // import sequelize c
-const models = require('./models/Category.js')
+// const models isnt being used anywhere?
+// const models = require('./models/Category.js')
 const app = express();
 const PORT = process.env.PORT || 3001;
 
